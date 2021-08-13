@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Program - 3</title>
+	<style>
+		body{
+			background-color: pink;
+		}
+		h1{
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<center>
+		<h1>ISHITA CHATTOPADHYAY- 1CR18CS077</h1>
+		<p id="tex"></p>
+		<script type="text/javascript">
+			var x=document.getElementById("tex");
+			var fs=5
+			var a=setInterval(inc,100); //1000ms=1s
+			function inc()
+			{
+				x.innerHTML="TEXT-GROWING";
+				fs+=5;
+				x.setAttribute("style","color:red;font-size:"+fs+"pt");
+				if(fs==50)
+				{
+					clearInterval(a);
+					var b=setInterval(dec,100);
+				}
+			}
+			function dec()
+			{
+				x.innerHTML="TEXT-SHRINKING";
+				fs-=5;
+				x.setAttribute("style","color:blue;font-size:"+fs+"pt");
+				if(fs==5)
+				{
+					clearInterval(b);
+				}
+			}
+		</script>
 
+	</body>
+</center>
+</html>
