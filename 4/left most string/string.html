@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prog4</title>
+	<style>
+		body{
+			background-color: #800080;
+			font-size: 30px;
+			color: white;
+		}
+	</style>
+</head>
 
+<body>
+	<center>
+		<caption>ISHITA CHATTOPADHYAY - 1CR18CS077</caption>
+		<br><br>
+		<script type="text/javascript">
+
+			var ch,i;
+			var str=prompt("Enter the String :");
+			str=str.toUpperCase();
+			document.write("The given String is: "+str+"<br>");
+			n=str.length;
+			document.write("The length of the String is: "+n+"<br>");
+			for(i=0;i<n;i++)
+			{
+				ch=str.charAt(i);
+				if(ch=='A'||ch=='E'||ch=='I'||ch=='O'|| ch=='U')
+					break;
+			}
+			if(i<n)
+			{
+				document.write("Left most vowel at the position : "+(i+1));
+			}
+			else
+			{
+				document.write("Vowel Not found");
+			}
+		</script>
+	</center>
+</body>
+</html>
