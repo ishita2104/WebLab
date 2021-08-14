@@ -1,0 +1,19 @@
+*
+{
+	display: block;
+	background-color:#6E1C24;
+}
+STUDENT1,STUDENT2,STUDENT3{
+	padding: 20px;
+	font-size: 18px;
+}
+usn{display: block; color: #F76806;}
+name{display: block; color:#FFB200; font-size: 25px; font-style: italic;}
+college{display: block; color:  #85FF00;}
+branch{display: block; color:#9678B6;}
+year{display: block; color: #30C5FF;}
+email{display: block; color:  #F7F1AF;}
+owner
+{
+	font-size: 30px;
+}
